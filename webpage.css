@@ -1,0 +1,161 @@
+
+ * {
+    box-sizing: border-box;
+  }
+  
+body{
+    color: white;
+    background-image: url(main.jpg);
+}
+.bar{
+  position: fixed;
+}
+.about p {
+    color: white;
+    text-align: justify;
+    font-size: 25px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  }
+  .about p span {
+    color: white;
+    font-weight: 90px;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .mar marquee {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: white;
+  }
+  .heading h1 {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+  }
+ 
+  .heading h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
+  table {
+    border-spacing: 25px;
+    width: 100%;
+  }
+ 
+  tr, td {
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+  }
+ 
+  .table {
+    font-size: large;
+  }
+  .button {
+    background-color:gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+ .button:hover {background-color: lightgray;}
+ 
+.nav-link:hover{background-color: black;}
+
+.button:active {
+  background-color: #dbe7db;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.aboutlogo{
+    margin-left: 46%;
+}
+ 
+.contact {
+    margin-top: 10px;
+  }
+ 
+  .contact a {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+  }
+ 
+  .contact a:hover {
+    color: black;
+  }
+ 
+  .facebook {
+    background: #3b5988;
+    color: white;
+  }
+ 
+  .twitter {
+    color: white;
+    background: #00aced;
+  }
+ 
+  .linkedin {
+    background: #0e76a6;
+    color: white;
+  }
+ 
+  .instagram {
+    background: orangered;
+    color: white;
+  }
+  .gmail{
+    background:sandybrown;
+    color: white;  
+  }
+  .youtube{
+    background-color: red;
+    color: white;
+  }
+  #features {
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .feature-title{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  
+  .icon {
+    color: lightgreen;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: black;
+  }
+  
+  p {
+    color: black;
+  }
+
+  #contactus {
+    width: 600px;
+  }
+  
+ 
+ 
